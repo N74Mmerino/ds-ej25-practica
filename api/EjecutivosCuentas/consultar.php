@@ -8,13 +8,12 @@ require_once '../../modelo/ejecutivoCuenta.php';
 
 $resp= new ConsultarRespuesta();
 
-$ec= new EjecutivoCuenta();
-
+$ec=new EjecutivoCuenta();
 $ec->Id=$_GET["Id"];
 $ec->Descripcion="Ejecutivo 1";
 $ec->Usuario="comercial";
 
-$resp-> EjecutivoCuenta = $ec;
+$resp->EjecutivoCuenta = $ec;
 
 
 

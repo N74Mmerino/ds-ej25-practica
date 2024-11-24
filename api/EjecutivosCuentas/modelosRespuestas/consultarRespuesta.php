@@ -2,6 +2,6 @@
 
 class ConsultarRespuesta{
 
-    public $EjecutivoDeCuenta;
+    public $EjecutivoCuenta;
     
 }

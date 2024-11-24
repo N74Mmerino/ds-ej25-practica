@@ -24,5 +24,4 @@ $resp->ListEjecutivosDeCuentas[]=$ec2;
 
 
 
-
 echo json_encode ($resp);
